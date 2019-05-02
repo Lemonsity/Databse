@@ -18,11 +18,13 @@ With experience in CCC, I wanted to create a database that gives near instant fe
 * Only exist on a logical level, with each **Cell** linked to the **Cell** in the previous and next **Column**
   
 **TitleNC:**
+
 Short for **Title and Column**
 * Contains **Column Titel** in the form of **String**
 * Contains **Column** which contains the actual **Cells**
 
-**DB**
+**DB:**
+
 Short for Database
 * Contains ArrayList<**TitleNC**>
 * The object to be created when want to use the Database data structure
