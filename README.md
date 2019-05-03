@@ -45,3 +45,9 @@ Short for Database
     * If no such `Cell` is found, prompt the user with message
     * Other-wise display the `Row` the value is located
     * If more then one `Cell` have such value, all rows will be displayed
+    
+## Time Complexity
+Searching for the title require N iteration (ArrayList)
+Finding the value user wants require O(1) time (HashMap)
+For each element in the ArrayList that matches the user wanted value, it require roughly 2N iteration to extract information for each row
+Thus total time complexity is O(N)
