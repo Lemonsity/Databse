@@ -1,5 +1,5 @@
-# Databse Prototype
-This is a databse data structure prototype I made
+# Databse Table Prototype
+This is a database table data structure prototype I made
 
 While reading MySQL related material, the book mentioned that the time tke to search increases as amount of row increases
 With experience in CCC, I wanted to create a database that gives near instant feedback
