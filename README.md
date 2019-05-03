@@ -26,7 +26,7 @@ Short for **Title and Column**
 **DB:**
 
 Short for Database
-* Contains `ArrayList<`**`TitleNC`**`>`
+* Contains `ArrayList<`__`TitleNC`__`>`
 * The object to be created when want to use the Database data structure
 
 ## Methods
