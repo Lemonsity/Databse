@@ -23,9 +23,7 @@ Short for **Title and Column**
 * Contains **Column Titel** in the form of `String`
 * Contains `Column` which contains the actual `Cells`
 
-**DB:**
-
-Short for Database
+**Table:**
 * Contains `ArrayList<`__`TitleNC`__`>`
 * The object to be created when want to use the Database data structure
 
