@@ -11,7 +11,7 @@ With experience in CCC, I wanted to create a database that gives near instant fe
 
 **Column:**
 * Contains `HashMap<Object, ArrayList<Cell>>`
-  * `Keys`: All of the values user have entered. Exmaple, if column A user entered 1 and 2, keysett will then contain {1, 2}
+  * `Keys`: All of the different values user have entered for that specific `Column`
   * `Values`: For each key, the ArrayList related is all `Cells` containing the value of the key
   
 **Row:**
