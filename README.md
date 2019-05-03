@@ -1,8 +1,8 @@
 # Databse Table Prototype
 This is a database table data structure prototype I made
 
-While reading MySQL related material, the book mentioned that the time tke to search increases as amount of row increases
-With experience in CCC, I wanted to create a database that gives near instant feedback
+While reading MySQL related material, the book mentioned that the time take to search increases as amount of row increases
+Knowing this may be troublesome when the table contain huge amount of data, I wanted to create a database with near instant feedback
 
 ## Structure
 **Cell:**
