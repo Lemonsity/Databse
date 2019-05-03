@@ -45,7 +45,7 @@ Short for **Title and Column**
     * If more then one `Cell` have such value, all rows will be displayed
     
 ## Time Complexity
-Searching for the title require N iteration (ArrayList)
-Finding the value user wants require O(1) time (HashMap)
-For each element in the ArrayList that matches the user wanted value, it require roughly 2N iteration to extract information for each row
-Thus total time complexity is O(N), which N stand for the amount of column in the table
+Searching for the title require N iteration (ArrayList)\n
+Finding the value user wants require O(1) time (HashMap)\n
+For each element in the ArrayList that matches the user wanted value, it require roughly 2N iteration to extract information for each row\n
+Thus total time complexity is O(N), which N stand for the amount of column in the table\n
