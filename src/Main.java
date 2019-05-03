@@ -3,17 +3,21 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        DB d = new DB();
-        d.addC("Name");
-        d.addC("Num");
+        Table t = new Table();
+        t.addC("Name");
+        t.addC("Num");
         ArrayList a = new ArrayList();
         a.add("M");
         a.add("1");
-        d.addRow(a);
+        t.addRow(a);
         a = new ArrayList();
         a.add("W");
         a.add("2");
-        //d.addRow(a);
-        d.search("Num", "2");
+        t.addRow(a);
+        a = new ArrayList();
+        a.add("Q");
+        a.add("2");
+        t.addRow(a);
+        t.search("Num", "2");
     }
 }

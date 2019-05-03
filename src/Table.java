@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class DB {
+public class Table {
     private ArrayList<TitleNC> list;
-    public DB() {
+    public Table() {
         list = new ArrayList<>();
     }
-    public void addC(String name) {
-        list.add(new TitleNC(name));
+    public void addC(String title) {
+        list.add(new TitleNC(title));
     }
     public void addRow(ArrayList values) {
         ArrayList<Cell> cells = new ArrayList<>();
