@@ -10,7 +10,7 @@ With experience in CCC, I wanted to create a database that gives near instant fe
 * Linked to other `Cell`s in the same row
 
 **Column:**
-* Contains `HashMap<Object, ArrayList<Cell>>`
+* Contains `HashMap<Object, ArrayList<`**`Cell`**`>>`
   * `Keys`: All of the different values user have entered for that specific `Column`
   * `Values`: For each key, the ArrayList related is all `Cells` containing the value of the key
   
