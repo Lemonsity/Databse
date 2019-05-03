@@ -25,7 +25,7 @@ Short for **Title and Column**
 
 **Table:**
 * Contains `ArrayList<`__`TitleNC`__`>`
-* The object to be created when want to use the Database data structure
+* **This is the class to be called when want to use the table data structure**
 
 ## Methods
 **`.addC(String title)`:**
