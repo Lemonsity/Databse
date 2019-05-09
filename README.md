@@ -49,6 +49,6 @@ Searching for the title require N iteration (ArrayList)
 
 Finding the value user wants require O(1) time (HashMap)
 
-For each element in the ArrayList that matches the user wanted value, it require roughly 2N iteration to extract information for each row
+For each element m in the ArrayList that matches the user wanted value, it require roughly 2N iteration to extract information for each row
 
-Thus total time complexity is O(N), where N stand for the amount of column in the table
+Thus total time complexity is O(NM), where N stand for the amount of column in the table, M represent the amount of element with requested value
