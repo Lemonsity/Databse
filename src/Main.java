@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// Some test data
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,11 +12,13 @@ public class Main {
         a.add("M");
         a.add("1");
         t.addRow(a);
-        a = new ArrayList();
+        
+        a.clear()
         a.add("W");
         a.add("2");
         t.addRow(a);
-        a = new ArrayList();
+        
+        a.clear()
         a.add("Q");
         a.add("2");
         t.addRow(a);
